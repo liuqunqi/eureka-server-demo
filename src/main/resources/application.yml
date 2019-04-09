@@ -2,7 +2,7 @@ server:
   port: 8761
 
 log:
-  level: DEBUG
+  level: INFO
 
 eureka:
   instance:
