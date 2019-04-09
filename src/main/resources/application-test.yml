@@ -1,0 +1,13 @@
+server:
+  port: 8762
+
+log:
+  level: INFO
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    # Dont register itself with eureka
+    fetch-registry: false
+    register-with-eureka: false

@@ -1,0 +1,13 @@
+server:
+  port: 8763
+
+log:
+  level: INFO
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    # Dont register itself with eureka
+    fetch-registry: false
+    register-with-eureka: false

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wofang</groupId>
-    <artifactId>eureka</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>eureka</name>
+    <artifactId>wofang-cloud-eureka</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>wofang-cloud-eureka</name>
     <description>eureka project for Spring Boot</description>
 
     <properties>
