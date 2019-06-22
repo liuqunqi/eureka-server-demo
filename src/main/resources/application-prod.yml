@@ -5,6 +5,8 @@ log:
   level: INFO
 
 eureka:
+  server:
+    enable-self-preservation: false
   client:
     # Dont register itself with eureka
     registerWithEureka: false
